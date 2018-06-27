@@ -1,0 +1,5 @@
+include django_tagify
+recursive-include django_tagify *.py
+recursive-include django_tagify/templates *.html
+recursive-include django_tagify/static/js *.js
+recursive-include django_tagify/static/css *.css
