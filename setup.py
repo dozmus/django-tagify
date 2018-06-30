@@ -6,7 +6,7 @@ README = open(os.path.join(here, 'README.rst')).read()
 
 setup(
     name='django-tagify',
-    version='0.19',
+    version='0.20',
     packages=['django_tagify'],
     description='django tag input field',
     long_description=README,
