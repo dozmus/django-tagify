@@ -22,9 +22,11 @@ Usage
  * You can specify the 'delimiter' (string).
  * You can specify the RegEx 'pattern' to validate the input (string).
 
-to allow blank inputs: blank=True on field
-blank inputs are accepted even if the whitelist does not contain it if blank=True ^
-is_valid() on a form containing TagsField will automatically verify your settings
+If you want to allow blank inputs for tags make sure you set ``blank=True`` on ``TagsField``.
+If blank inputs are allowed, they will not be filtered by the whitelist.
+
+Note: If you use ``TagsField`` in a Form, then `Form.is_valid()` will automatically verify that its values
+conform to those specify in its settings, to prevent malicious behaviour from end users.
 
 Installation
 ===============
