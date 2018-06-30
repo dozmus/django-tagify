@@ -2,3 +2,4 @@ venv/
 django_tagify.egg-info/
 dist/
 .idea/
+__pycache__/

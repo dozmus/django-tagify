@@ -2,6 +2,7 @@ django-tagify
 ----------------
 
 A django tag input field using Tagify_ built for Django 2.0.
+The tags are stored as a comma-delimited (unless if changed) ``String``.
 
 .. _Tagify: https://github.com/yairEO/tagify/
 
