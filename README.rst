@@ -19,10 +19,12 @@ Usage
  * You can specify 'maxTags' (int).
  * You can specify the 'whitelist' (list containing strings).
  * You can specify the 'blacklist' (list containing strings).
- * You can specify the 'delimiters' (string).
+ * You can specify the 'delimiter' (string).
  * You can specify the RegEx 'pattern' to validate the input (string).
 
-Note: The results of these settings are not automatically verified in the Python code.
+to allow blank inputs: blank=True on field
+blank inputs are accepted even if the whitelist does not contain it if blank=True ^
+is_valid() on a form containing TagsField will automatically verify your settings
 
 Installation
 ===============

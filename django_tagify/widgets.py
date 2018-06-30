@@ -13,7 +13,7 @@ class TagsInput(Textarea):
         You can specify 'maxTags' (int).
         You can specify the 'whitelist' (string list).
         You can specify the 'blacklist' (string list).
-        You can specify the 'delimiters' (string).
+        You can specify the 'delimiter' (string).
         You can specify the RegEx 'pattern' to validate the input (string).
         """
         # TODO validate settings
