@@ -14,7 +14,9 @@ class TagsField(CharField):
         self.widget_settings = {
             'delimiter': ','
         }
-        self.widget_settings.update(widget_settings)
+
+        if widget_settings is not None:
+            self.widget_settings.update(widget_settings)
 
         # Defaults
         defaults = {
